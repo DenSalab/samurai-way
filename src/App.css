@@ -7,22 +7,3 @@
   grid-template-columns: 2fr 10fr;
   height: 100vh;
 }
-
-.header {
-  grid-area: header;
-  background-color: darkgreen;
-}
-
-.header img{
-  width: 20px;
-  height: 20px;
-}
-.nav {
-  grid-area: nav;
-  background-color: green;
-}
-
-.content {
-  grid-area: content;
-
-}

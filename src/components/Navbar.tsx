@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import s from "./Navbar.module.css";
 
 interface INavbar {
 
@@ -7,7 +7,7 @@ interface INavbar {
 
 const Navbar: React.FC<INavbar> = ({}) => {
   return (
-    <nav className={"nav"}>
+    <nav className={s.nav}>
       <div>
         <a href="#">Profile</a>
       </div>
