@@ -7,3 +7,7 @@
   grid-template-columns: 2fr 10fr;
   height: 100vh;
 }
+
+.app-content-wrapper {
+  grid-area: content;
+}
