@@ -1,3 +1,22 @@
 .wrapper {
   grid-area: content;
+  display: flex;
+  flex-direction: row;
+}
+
+.dialogItems {
+  flex: 1;
+  background-color: lightblue;
+}
+
+.item {
+}
+
+.messages {
+  flex: 3;
+  background-color: #16708d;
+}
+
+.message {
+
 }
